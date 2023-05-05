@@ -31,8 +31,8 @@ include './functions/generatePass.php';
             <div class="text me-3">
               <p class="mb-0">Lunghezza caratteri password:</p>
             </div>
-            <div>
-              <input type="number" class="form-control pe-3" name="length" min="8" max="24">
+            <div class="w-25">
+              <input type="number" class="form-control pe-3" name="length" min="8" max="24" placeholder="min 8 caratteri">
             </div>
             <div class="buttons">
               <button type="submit" class="btn btn-primary ms-3">Genera</button>
