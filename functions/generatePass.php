@@ -11,5 +11,5 @@ function genPass($length)
       $password[] = $charact;
     }
   }
-  return $password;
+  return implode($password);
 }
